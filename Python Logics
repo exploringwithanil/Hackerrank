@@ -1,0 +1,41 @@
+Print the square of numbers till n from 0. 
+
+for i in range(0,n,1):
+        print(i**2)
+
+Range() function is used in for loop to print the squares of numbers from 0 to n. 
+
+
+Printing all the numbers from 1 to n in same line
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(1,n+1,1):
+        print(i, end="")
+
+end is used to print the output in the same line in python. 
+
+
+n = int(input())
+    arr = map(int, input().split())
+Defining an array in python. 
+
+
+
+Find the second largest number in the array
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    b = sorted(arr, reverse=True)
+    c = max(b)
+    for i in range(0,n,1):
+        if b[i]!=c:
+            print(b[i])
+            break
+
+
+sorted(arr) - It is used to sort the array
+max() - It gives the maximum of the array
+Declaering an array arr = map(int, input().split())
+Sort the array in reverse order
+Sorted(Arr, reverse=True)
